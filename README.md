@@ -30,16 +30,15 @@ Clone o Repositório:
 
 Correr
 Copiar código
-git clone https://github.com/seu-usuario/ong-solidaria-site.git
-cd ong-solidaria-site
+git clone [https://github.com/gabizinhavr/Ong-com-css/tree/main]
 Abra no Navegador:
 
 Abra o arquivo index.htmldiretamente no navegador (funciona offline).
-Para servidor local: Use uma extensão como Live Server no VS Code ou rode python -m http.server 5500no terminal e acesse http://127.0.0.1:5500.
+Para servidor local: Use uma extensão como Live Server no VS Code ou rode python -m http.server 5500no terminal e acesse [http://127.0.0.1:5500].
 Teste as Funcionalidades:
 
 Navegue pelas páginas através do menu.
-Preencha o formulário de cadastro e veja o modal de sucesso.
+Preencha o formulário de cadastro.
 Teste no mobile simulando no DevTools ou acessando via IP local (veja instruções no código).
 Verifique a responsividade redimensionando a janela do navegador.
 Para Professor/Avaliador: O site é totalmente funcional sem backend. Teste em Chrome/Firefox e dispositivos móveis. 
