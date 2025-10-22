@@ -1,0 +1,40 @@
+@media (max-width: 767px) {
+  .container {
+    grid-template-columns: 1fr;
+  }
+  .hero {
+    padding: var(--spacing-lg);
+  }
+  .projects {
+    flex-direction: column;
+  }
+  .project-card {
+    flex: 1 1 100%;
+  }
+  .contact-form {
+    padding: var(--spacing-md);
+  }
+}
+
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .projects {
+    justify-content: center;
+  }
+  .project-card {
+    flex: 1 1 calc(50% - var(--spacing-md)); 
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1199px) {
+  .project-card {
+    flex: 1 1 calc(33.333% - var(--spacing-md)); 
+  }
+}
+
+
+@media (min-width: 1200px) {
+  .project-card {
+    flex: 1 1 calc(25% - var(--spacing-md)); 
+  }
+}
