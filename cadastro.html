@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ONG Solidária - Cadastro</title>
+  <meta name="description" content="Cadastre-se na ONG Solidária para voluntariado, doações ou apoio." />
+  <meta name="keywords" content="cadastro, voluntariado, doações, ONG" />
+
+ 
+  <link rel="stylesheet" href="assets/css/reset.css" />
+  <link rel="stylesheet" href="assets/css/variables.css" />
+  <link rel="stylesheet" href="assets/css/layout.css" />
+  <link rel="stylesheet" href="assets/css/navigation.css" />
+  <link rel="stylesheet" href="assets/css/components.css" />
+  <link rel="stylesheet" href="assets/css/responsive.css" />
+  <link rel="stylesheet" href="assets/css/main.css" />
+
+  
+  <script src="assets/js/script.js" defer></script>
+</head>
+<body>
+
+  <div class="container">
+    
+    <header class="header">
+      <h1>ONG Solidária - Cadastro</h1>
+      <nav>
+        <ul class="navbar">
+          <li><a href="index.html">Início</a></li>
+          <li><a href="projetos.html">Projetos</a></li>
+          <li><a href="cadastro.html">Cadastro</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    
+    <main class="main">
+      <section class="contact" id="cadastro-form">
+        <h2>Cadastre-se</h2>
+        <p>Junte-se à nossa comunidade! Preencha o formulário abaixo para se cadastrar como voluntário ou doador.</p>
+
+        <picture>
+          <img src="assets/images/ajude.jpg" alt="Ilustração de cadastro em plataforma digital" width="300" height="200" />
+        </picture>
+
+        <form action="#" method="post" class="contact-form">
+          <fieldset class="form-group">
+            <legend>Informações Pessoais</legend>
+
+            <label for="nome">Nome Completo:</label>
+            <input type="text" id="nome" name="nome" class="form-input" required placeholder="Ex: João Silva" />
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" class="form-input" required placeholder="exemplo@email.com" />
+
+            <label for="cpf">CPF:</label>
+            <input type="text" id="cpf" name="cpf" class="form-input" required pattern="\d{3}\.\d{3}\.\d{3}-\d{2}" placeholder="000.000.000-00" />
+
+            <label for="telefone">Telefone:</label>
+            <input type="tel" id="telefone" name="telefone" class="form-input" required pattern="^\(\d{2}\)\s\d{4,5}-\d{4}$" placeholder="(00) 00000-0000" />
+
+            <label for="data-nascimento">Data de Nascimento:</label>
+            <input type="date" id="data-nascimento" name="data-nascimento" class="form-input" required />
+          </fieldset>
+         
+          <fieldset class="form-group">
+            <legend>Endereço</legend>
+
+            <label for="endereco">Habitação:</label>
+            <input type="text" id="endereco" name="endereco" class="form-input" required placeholder="Rua, número" />
+
+            <label for="cep">CEP:</label>
+            <input type="text" id="cep" name="cep" class="form-input" required pattern="\d{5}-\d{3}" placeholder="00000-000" />
+
+            <label for="cidade">Cidade:</label>
+            <input type="text" id="cidade" name="cidade" class="form-input" required placeholder="Ex: São Paulo" />
+
+            <label for="estado">Estado:</label>
+            <select id="estado" name="estado" class="form-input" required>
+              <option value="">Selecione</option>
+              <option value="PR">Paraná</option>
+              <option value="RJ">Rio de Janeiro</option>
+              <option value="SP">São Paulo</option>
+            </select>
+          </fieldset>
+
+          <button type="submit" class="btn">Cadastrar</button>
+        </form>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>&copy; 2025 ONG Solidária. Gabrielle Vernille. Todos os direitos reservados.</p>
+    </footer>
+  </div>
+
+</body>
+</html>
